@@ -33,7 +33,7 @@
             direction: rtl;
         }
 
-        .logo {            
+        .logo {
             margin-bottom: 32px;
         }
 
@@ -61,6 +61,20 @@
         button:hover {
             background-color: #5A199B;
         }
+
+        @media only screen and (max-width: 560px) {
+            .logo img {
+                display: block;
+                margin: auto;
+                width: 50%;
+            }
+
+            button {
+                font-size: 16px;
+                /* padding: 0px 0; */
+                width: 120px;
+                height: 40px;
+            }
     </style>
 </head>
 
